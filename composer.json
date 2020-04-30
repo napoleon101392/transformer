@@ -1,0 +1,17 @@
+{
+    "name": "napoleon/transformer",
+    "version": "0.0.1",
+    "require-dev": {
+        "phpunit/phpunit": "~6.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Napoleon\\Support\\Transformer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Napoleon\\Support\\Transformer\\Tests\\": "tests/"
+        }
+    }
+}
