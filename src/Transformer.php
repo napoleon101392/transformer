@@ -160,8 +160,6 @@ class Transformer implements TransformerInterface
      */
     protected function validateArgument($arguments)
     {
-        $errors = [];
-
         foreach ($arguments as $index => $value) {
             if (strpos(file_get_contents($this->stub), $index) === false) {
                 $errors[] = $index;
